@@ -1,6 +1,6 @@
 
-export const DOMAIN = 'http://localhost:3000';
-// export const DOMAIN = 'https://www.jinxmanga.in.net';
+// export const DOMAIN = 'http://localhost:3000';
+export const DOMAIN = 'https://www.jinxmanga.in.net';
 
 export const MANGA_DESCRIPTION = `<a href="${DOMAIN}"><u>Jinx</u></a> is a popular manhwa (Korean manga) created by Mingwa. The story revolves around Kim Dan, a physical therapist struggling with financial difficulties, and Jaekyung Joo, a professional MMA fighter who believes he suffers from a curse or "jinx" that affects his career. Desperate for help, Jaekyung seeks Kim Dan's assistance, leading to a complex and intense relationship. The manhwa explores themes of trauma, resilience, and the unconventional bond between the two main characters.`
 
