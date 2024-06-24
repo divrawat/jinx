@@ -1,4 +1,4 @@
-//export const DOMAIN = 'http://localhost:3000';
+// export const DOMAIN = 'http://localhost:3000';
 export const DOMAIN = 'https://www.jinxmanga.in.net';
 
 export const MANGA_DESCRIPTION = `<a href="${DOMAIN}"><u>Jinx</u></a> is a popular manhwa (Korean manga) created by Mingwa. The story revolves around Kim Dan, a physical therapist struggling with financial difficulties, and Jaekyung Joo, a professional MMA fighter who believes he suffers from a curse or "jinx" that affects his career. Desperate for help, Jaekyung seeks Kim Dan's assistance, leading to a complex and intense relationship. The manhwa explores themes of trauma, resilience, and the unconventional bond between the two main characters.`
@@ -86,39 +86,83 @@ export const FooterLinks = [
 export const RelatedMangaLinks = [
     {
         imageUrl: `${DOMAIN}/related/frieran.webp`,
-        title: 'Frieran',
-        link: 'https://www.frieranmanga.in.net',
+        title: 'Frieran Manga',
+        link: 'https://www.frierenmanga.in.net',
     },
     {
         imageUrl: `${DOMAIN}/related/one-punch-man.webp`,
-        title: 'One Punch Man',
+        title: 'One Punch Man Manga',
         link: 'https://www.onepunchmanmanga.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/vinland-saga.webp`,
-        title: 'Vinland Saga',
-        link: 'https://www.vinlandsagamanga.in.net',
-    },
-    {
         imageUrl: `${DOMAIN}/related/jujutsu-kaisen.webp`,
-        title: 'Jujutsu Kaisen',
+        title: 'Jujutsu Kaisen Manga',
         link: 'https://www.jujutsukaisenmanga.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/black-clover.webp`,
-        title: 'Black Clover',
-        link: 'https://www.blackclovermanga.in.net',
-    },
-    {
         imageUrl: `${DOMAIN}/related/chainsaw-man.webp`,
-        title: 'Chainsaw Man',
+        title: 'Chainsaw Man Manga',
         link: 'https://www.chainsawmanmanga.in.net',
     },
     {
         imageUrl: `${DOMAIN}/related/mushoku-tensei.webp`,
-        title: 'Mushoku Tensei',
+        title: 'Mushoku Tensei Manga',
         link: 'https://www.mushokutenseimanga.in.net',
     },
+    {
+        imageUrl: `${DOMAIN}/related/one-piece.webp`,
+        title: 'One Piece Manga',
+        link: 'https://www.onepiecemanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/jinx.webp`,
+        title: 'Jinx Manga',
+        link: 'https://www.jinxmanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/boruto.webp`,
+        title: 'Boruto Manga',
+        link: 'https://www.borutomanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/demon-slayer.webp`,
+        title: 'Demon Slayer Manga',
+        link: 'https://www.demonslayermanga.in.net',
+    },
+
+    /*
+    {
+        imageUrl: `${DOMAIN}/related/my-dress-up-darling.webp`,
+        title: 'My Dress Up Darling Manga',
+        link: 'https://www.mydressupdarlingmanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/blue-lock.webp`,
+        title: 'Blue Lock Manga',
+        link: 'https://www.bluelockmanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/solo-leveling.webp`,
+        title: 'Solo Leveling Manga',
+        link: 'https://www.sololevelingimanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/my-hero-academia.webp`,
+        title: 'My Hero Academia Manga',
+        link: 'https://www.myheroacademiamanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/vinland-saga.webp`,
+        title: 'Vinland Saga Manga',
+        link: 'https://www.vinlandsagamanga.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/black-clover.webp`,
+        title: 'Black Clover Manga',
+        link: 'https://www.blackclovermanga.in.net',
+    },
+*/
+
 ];
 
 
