@@ -80,6 +80,11 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
     );
 
 
+    const handleRedirect = () => {
+        window.open('https://atservineor.com/4/7647881', '_blank');
+      };
+
+
     return (
         <>
             {head()}
@@ -91,7 +96,7 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
                 <div className='mx-3 my-7'>
                     <div className="flex justify-between max-w-[800px] mx-auto md:mb-[50px] mt-5">
                         {previousChapter !== null ? (
-                            <Link href={`${DOMAIN}/${NEXT_PREVIOUS_PREFIX}-${previousChapter}`}>
+                            <Link onClick={handleRedirect} href={`${DOMAIN}/${NEXT_PREVIOUS_PREFIX}-${previousChapter}`}>
                                 <button className="text-[white] text-[13px] hover:scale-105 active:scale-95 transition-transform rounded bg-[black] px-2 py-2 font-semibold">Previous Chapter</button>
                             </Link>
                         ) : (
@@ -99,7 +104,7 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
                         )}
 
                         {nextChapter !== null ? (
-                            <Link href={`${DOMAIN}/${NEXT_PREVIOUS_PREFIX}-${nextChapter}`}>
+                            <Link onClick={handleRedirect} href={`${DOMAIN}/${NEXT_PREVIOUS_PREFIX}-${nextChapter}`}>
                                 <button className="text-[white] text-[13px] hover:scale-105 active:scale-95 transition-transform rounded bg-[black] px-2 py-2 font-semibold">Next Chapter</button>
                             </Link>
                         ) : (
