@@ -26,11 +26,11 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
     const nextChapter = chapterIndex < totalChapters - 1 ? chaptersData[chapterIndex + 1].chapterNumber : null;
 
 
-    const DESCRIPTION = `Enjoy reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}.`
+    const DESCRIPTION = `Enjoy reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}. Eunjoo, a dedicated physical therapist, and Haeri, a troubled MMA fighter with a tumultuous past. Their evolving relationship forms the heart of the story, exploring themes of personal growth, redemption, and deep emotional connection.`
     const URL = params.chapter;
-    const currentDate = new Date();
-    const dateModified = new Date(currentDate.getTime() - (2 * 24 * 60 * 60 * 1000)).toISOString();
-    const datePublished = new Date(currentDate.getTime() - (7 * 24 * 60 * 60 * 1000)).toISOString();
+    // const currentDate = new Date();
+    // const dateModified = new Date(currentDate.getTime() - (2 * 24 * 60 * 60 * 1000)).toISOString();
+    // const datePublished = new Date(currentDate.getTime() - (7 * 24 * 60 * 60 * 1000)).toISOString();
 
 
     const schema =
@@ -57,8 +57,8 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
                 "url": `${LOGO_URL}`
             }
         },
-        "datePublished": datePublished,
-        "dateModified": dateModified
+        // "datePublished": datePublished,
+        // "dateModified": dateModified
     }
 
     const head = () => (
@@ -82,7 +82,7 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
 
     const handleRedirect = () => {
         window.open('https://atservineor.com/4/7647881', '_blank');
-      };
+    };
 
 
     return (
