@@ -80,7 +80,7 @@ export default function Home() {
   const filteredMangaLinks = RelatedMangaLinks.filter(item => item.link !== DOMAIN);
 
   const handleRedirect = () => {
-    window.open('https://atservineor.com/4/7647881', '_blank');
+    window.open('https://thampolsi.com/4/7457654', '_blank');
   };
 
   return (
