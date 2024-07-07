@@ -29,7 +29,7 @@ export const logo = <img src={`${LOGO_URL}`} alt="Logo" className="h-[75px] w-[1
 export const APP_NAME = 'Jinx';
 export const NavbarName = "Jinx";
 
-export const APP_DESCRIPTION = `Read ${MANGA_NAME} manga online at ${DOMAIN}. The story revolves around Kim Dan, a physical therapist struggling with financial difficulties, and Jaekyung Joo, a professional MMA fighter who believes he suffers from a curse or "jinx" that affects his career. Desperate for help, Jaekyung seeks Kim Dan's assistance, leading to a complex and intense relationship. The manhwa explores themes of trauma, resilience, and the unconventional bond between the two main characters.`;
+export const APP_DESCRIPTION = `Read ${MANGA_NAME} manhwa or manga all chapters online. The story revolves around Kim Dan, a physical therapist struggling with financial difficulties, and Jaekyung Joo, a professional MMA fighter who believes he suffers from a curse or "jinx" that affects his career. Desperate for help, Jaekyung seeks Kim Dan's assistance, leading to a complex and intense relationship. The manhwa explores themes of trauma, resilience, and the unconventional bond between the two main characters.`;
 
 export const DISQUS_SHORTNAME = "my-cms-7";
 

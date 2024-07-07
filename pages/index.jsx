@@ -26,9 +26,7 @@ export default function Home() {
 
 
   const genres = MANGA_GENRE.split(', ');
-  // const currentDate = new Date();
-  // const dateModified = new Date(currentDate.getTime() - (3 * 24 * 60 * 60 * 1000)).toISOString();
-  // const datePublished = new Date(currentDate.getTime() - (4 * 24 * 60 * 60 * 1000)).toISOString();
+
 
 
   const schema =
@@ -55,8 +53,6 @@ export default function Home() {
         "url": `${LOGO_URL}`
       }
     },
-    // "datePublished": datePublished,
-    // "dateModified": dateModified
   }
 
   const head = () => (
@@ -164,7 +160,7 @@ export default function Home() {
 
 
 
-        <div className="max-w-[1100px] mx-auto p-4">
+        {/* <div className="max-w-[1100px] mx-auto p-4">
           <h1 className="text-3xl font-bold mb-6 text-center">Read More Mangas</h1>
           <div className="flex flex-wrap gap-6 justify-center">
             {filteredMangaLinks.map((item, index) => (
@@ -178,7 +174,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
 
 
