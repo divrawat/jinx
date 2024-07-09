@@ -12,6 +12,6 @@
       "/images/**",
       "/public/**",
       "/build/**",  
-      "/_next/static/**" 
+      "/_next/static/*" 
     ]
   }
