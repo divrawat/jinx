@@ -69,6 +69,7 @@ export const MANGA_SUMMARY = [
 
 
 export const navLinks = [
+    { text: 'Operation True Love', href: `https://www.operationtruelove.in.net` },
     { text: 'Home', href: `${DOMAIN}` },
     { text: 'DMCA', href: `${DOMAIN}/dmca` },
     { text: 'Terms & Conditions', href: `${DOMAIN}/terms-and-conditions` },
