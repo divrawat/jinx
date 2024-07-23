@@ -405,4 +405,4 @@ export const chaptersData = [
         "chapterNumber": "54",
         "numImages": 39
     }
-];
+]

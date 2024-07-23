@@ -8,8 +8,13 @@
       "/*.svg",
       "/*.webp",
       "/*.ico",
-      "/images/**",
+      "/*.jpg",
+      "/*.jpeg",
+      "/*.txt",
+      "/*.xml",
       "/public/**",
+      "/images/**",
+      "/related/**",
       "/build/**",  
       "/_next/static/*" 
     ]
